@@ -12,3 +12,12 @@ h1 {
 	background: #ccc;
 	
 }
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF00FF;
+	text-decoration: underline;
+	
+}
