@@ -1,0 +1,43 @@
+body{
+	background: #ccc;
+	text-align: justify;
+	margin: 0;
+}
+
+.container{
+
+	font-family: "Helvetica";
+	margin: 0 auto; 
+	width: 700px;
+	background: #fff url(dippic.jpg) no-repeat top center;
+	    background-size: 700px 300px;
+	padding-top: 300px; 
+}
+.recipe{
+	padding: 20px 20px 20px 20px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF00FF;
+	text-decoration: underline;
+	
+}
+/*body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0 auto;
+	width: 1200px;
+	background: #ccc;
+	
+}
+h1 {
+	font-family: "Helvetica";
+	margin: 0 auto;
+	width: 1200px;
+	background: #ccc;
+	
+}
+
+*/
