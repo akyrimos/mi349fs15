@@ -1,0 +1,46 @@
+body {
+	font-family: "Helvetica";
+	color: white;
+	margin: 0 150px;
+	text-align: center;
+	background-image: url("background.png");
+	background-color: #ccc;
+	border: 3px solid blue;
+	
+}
+.persona{
+	text-align: justify;
+	margin: 10px 100px;
+	color: white;
+	vertical-align: top;
+	
+}
+h2 {
+	font-family: "Helvetica";
+	text-align: center;
+	
+	
+}
+IMG.displayed{
+	border: 3px solid blue;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 960px;
+}
+/*IMG.personas{ 
+	image-align: justify;
+	margin-left: 120px;
+	margin-right: 10px;
+	width: 200px;
+	
+} */
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF00FF;
+	text-decoration: underline;
+	
+}
