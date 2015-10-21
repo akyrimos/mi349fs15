@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* Valeta Wensloffs's CSS Document. 
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+Dark Red: #862e19
+Cyan: #45b5dd
+Light Gray: #cccccc
+Dark Gray: #666666
+White: #ffffff
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+background-image:url(footer_lodyas.png);
+background-repeat:repeat;
+}
+
+body {
+	width: 1200px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: ##1d11ff;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	font-family: "helvetica";
+	background-image:url(bg2.png);
+	background-size:cover;
+	margin-bottom: 100px;
+	color: white; 
+}
+
+h1 {
+	font-family: "helvetica";
+	text-align: center;
+	background-color: #0069BF;
+	color: #008BFF;
+}
+
+#selfie{
+	float:left;
+	margin-right: 20px;
+}
+#cheating{
+	margin-bottom: 120px;
+}
+#footer{
+	background-color: #666666;
+	min-height: 100%;
+    height: 100%;
+	padding: 10px;
+}
+#special{
+float: right;
+}
+#nav{
+	list-style-type:none;
+	background-color: #000066;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+}
+#nav a{
+	color:#fff;
+	text-decoration: none;
+}
+#nav a:active{
+	color:#666666;
+	text-decoration: underline;
+	background-color: #666666;
+}
+#nav a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+h2 {
+	font-family: "helvetica";
+	padding: 7px;
+	color: #008DFF;
+}
+
+h3 {
+	font-family: "helvetica";
+	color: #008DFF;
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color: #007DE5;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #006;
+}
