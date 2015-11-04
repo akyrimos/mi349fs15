@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*html {
+background-image:url(footer_lodyas.png);
+background-repeat:repeat;
+}
+*/
+body {
+
+}
+h2 {
+	color: blue;
+	
+	
+}
+.columns {
+	font-family: "Helvetica";
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+}
+@media only screen and (max-width: 1200px) {
+	.columns{
+	font-family: "Helvetica";
+	color: blue;
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.columns{
+	font-family: "Helvetica";
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;
+    column-count: 2;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.columns{
+	font-family: "Helvetica";
+    -webkit-column-count: 1; 
+    -moz-column-count: 1;
+    column-count: 1;
+	}
+}
