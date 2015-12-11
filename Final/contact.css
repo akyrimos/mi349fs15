@@ -1,0 +1,84 @@
+/*Note: I know a lot of the CSS in contact.css is useless. However, I like some degree of parity between my CSS files. Just in case I decide to go another route. */
+html {
+background-image:url(footer_lodyas.png);
+background-repeat:repeat;
+}
+
+body {
+	width: 1200px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: #000;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	font-family: "Open Sans", sans-serif;
+	background-image:url(bg2.png);
+	background-size:cover;
+	margin-bottom: 10px;
+	color: white; 
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	background-color: #327AE6;
+	color: #327AE6;
+}
+
+#cheating{
+	margin-bottom: 120px;
+}
+
+#nav{
+	list-style-type:none;
+	background-image: url("contactnav.jpg");
+	width: 1160px;
+	border-color: #020451;
+	border-style: solid;
+	border-width: 5px;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+}
+#nav a{
+	color:#fff;
+	text-decoration: none;
+}
+#nav a:active{
+	color:#666666;
+	text-decoration: underline;
+	background-color: #666666;
+}
+#nav a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+h2 {
+	font-family: "Open Sans", sans-serif;
+	color: #008DFF;
+}
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	color: #008DFF;
+}
+
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color: #020451;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #006;
+}
