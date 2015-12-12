@@ -30,16 +30,15 @@ h1 {
 }
 
 #nav{
-	list-style-type:none;
 	background-image: url("contactnav.jpg");
-	width: 1160px;
+	width: 96.5%;
+	font-size: 2em;
 	border-color: #020451;
 	border-style: solid;
 	border-width: 5px;
 	padding: 20px;
 	text-align: center;
 	font-family: 'Poiret One', cursive;
-	font-size: 30px;
 }
 #nav a{
 	color:#fff;
@@ -82,3 +81,43 @@ a:hover {
 	text-decoration: none;
 	color: #006;
 }
+@media only screen and (max-width: 1400px){
+	body{
+		width: 80%;
+	}
+	nav{
+		width: 80%;
+		background-image: none;
+		background-size: auto 80%;
+	}
+	header{
+		width: 50%;
+		background-color: none;
+		background: none;
+	}
+	img{height: 100%; width: 100%;}
+	h1{background-color: none; background: none;}
+	
+}
+@media only screen and (max-width: 700px){
+	body{
+		width: 60%;
+		font-size: 12px;
+		min-width: 400px;
+	}
+	nav{
+		font-size: 2em;
+		width: 80%;
+		background-image: none;
+		background-size: auto 80%;
+	}
+	header{
+		width: 50%;
+		background-color: none;
+		background: none;
+	}
+	img{height: 100%; width: 100%; min-width: 290px;}
+	h1{background-color: none; background: none;}
+	
+}
+

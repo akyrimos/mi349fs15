@@ -1,0 +1,7 @@
+So as you can tell from the card sort summary, information architecture diagram, and the rough wireframe, my vision for the website has strayed a little. I did this 
+not JUST because it was easier (although that was a factor in my decision making), but I decided that I liked the simplistic, minimalist art style. I think it suited the
+pictures better. One thing that remained constat was the oversized header--that had to be big, just like my ego. The rest of the things were more or less interchangable. As
+long as it had my name and my resume, I was satisfied.
+
+One last thing--I couldn't get the navigation bar to scale correctly when I try to use media queries. 
+I think I tried for hundreds of hours. It just won't do it. I don't know why. It's driving me crazy. 
